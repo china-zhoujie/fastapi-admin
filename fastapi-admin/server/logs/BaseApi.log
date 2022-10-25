@@ -1,0 +1,52 @@
+2022-10-25 09:56:51.962 | INFO     | apps.base.hello:hello:33 - 启动成功！
+2022-10-25 09:56:51.962 | ERROR    | __main__:<module>:27 - 服务异常！
+Traceback (most recent call last):
+
+> File "runme.py", line 18, in <module>
+    uvicorn.run(app='runme:app',
+    │       └ <function run at 0x7f68f1443f70>
+    └ <module 'uvicorn' from '/www/python/Python36/fastapi-admin/demo/lib/python3.8/site-packages/uvicorn/__init__.py'>
+
+TypeError: run() got an unexpected keyword argument 'debug'
+2022-10-25 10:00:07.088 | INFO     | apps.base.hello:hello:33 - 启动成功！
+2022-10-25 10:00:07.088 | ERROR    | __main__:<module>:27 - 服务异常！
+Traceback (most recent call last):
+
+> File "runme.py", line 22, in <module>
+    debug=conf.DEBUG,
+          └ Config(ACCESS_TOKEN_EXPIRE_MINUTES=1440, SECRET_KEY='-*&^)()sd(*A%&^aWEQaasda_asdasd*&*)(asd%$#', VERSION='Revision 1.0.0 bui...
+
+AttributeError: 'Config' object has no attribute 'DEBUG'
+2022-10-25 10:00:20.379 | INFO     | apps.base.hello:hello:33 - 启动成功！
+2022-10-25 10:00:20.380 | ERROR    | __main__:<module>:27 - 服务异常！
+Traceback (most recent call last):
+
+> File "runme.py", line 18, in <module>
+    uvicorn.run(app='runme:app',
+    │       └ <function run at 0x7f49a5d6df70>
+    └ <module 'uvicorn' from '/www/python/Python36/fastapi-admin/demo/lib/python3.8/site-packages/uvicorn/__init__.py'>
+
+TypeError: run() got an unexpected keyword argument 'debug'
+2022-10-25 10:01:57.169 | INFO     | apps.base.hello:hello:33 - 启动成功！
+2022-10-25 10:01:57.170 | ERROR    | __main__:<module>:27 - 服务异常！
+Traceback (most recent call last):
+
+> File "runme.py", line 18, in <module>
+    uvicorn.run(app='runme:app',
+    │       └ <function run at 0x7f52337b4f70>
+    └ <module 'uvicorn' from '/www/python/Python36/fastapi-admin/demo/lib/python3.8/site-packages/uvicorn/__init__.py'>
+
+TypeError: run() got an unexpected keyword argument 'debug'
+2022-10-25 10:07:47.305 | INFO     | apps.base.hello:hello:33 - 启动成功！
+2022-10-25 10:07:47.305 | ERROR    | __main__:<module>:27 - 服务异常！
+Traceback (most recent call last):
+
+> File "runme.py", line 18, in <module>
+    uvicorn.run(app='runme:app',
+    │       └ <function run at 0x7f8bfb917f70>
+    └ <module 'uvicorn' from '/www/python/Python36/fastapi-admin/demo/lib/python3.8/site-packages/uvicorn/__init__.py'>
+
+TypeError: run() got an unexpected keyword argument 'debug'
+2022-10-25 10:08:26.496 | INFO     | apps.base.hello:hello:33 - 启动成功！
+2022-10-25 10:20:16.610 | INFO     | apps.base.hello:hello:33 - 启动成功！
+2022-10-25 10:24:30.642 | INFO     | apps.base.hello:hello:33 - 启动成功！
